@@ -8,6 +8,7 @@
             {
                 Text.Menu();
                 ConsoleKeyInfo input = Console.ReadKey();
+                Console.Beep();
                 if (input.Key == ConsoleKey.D1)
                 {
                     Text.Task64();

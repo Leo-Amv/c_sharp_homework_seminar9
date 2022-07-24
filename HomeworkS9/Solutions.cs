@@ -5,12 +5,14 @@ namespace Homework
         /// <summary>Метод запускает в консоли решение задачи 64</summary>
         public static void Task64Sol()
         {
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
             Methods.AskValuesMN(out int m, out int n);
             Methods.PrintValues(m, n);
         }
         /// <summary>Метод запускает в консоли решение задачи 66</summary>
         public static void Task66Sol()
         {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
             Methods.AskValuesMN(out int m, out int n);
             Methods.PrintValues(m, n);
             Methods.PrintSumValues(m, n);
@@ -18,8 +20,9 @@ namespace Homework
         /// <summary>Метод запускает в консоли решение задачи 68</summary>
         public static void Task68Sol()
         {
-            int m = 3;
-            int n = 5;
+            Console.Beep();
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Methods.AskValuesAckMN(out int m, out int n);
             Console.WriteLine($"Ack({m},{n}) = {Methods.Ack(m, n)}");
         }
     }

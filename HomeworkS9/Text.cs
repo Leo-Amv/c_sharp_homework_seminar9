@@ -5,6 +5,8 @@ namespace Homework
         /// <summary>Метод выводит в консоль меню домашнего задания</summary>
         public static void Menu()
         {
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("\nSELECT A MENU ITEM AND PRESS THE CORRESPONDING KEY:\n");
             Console.WriteLine("If you want to choose   Task 64 press the button:\t1");
             Console.WriteLine("\t\t\tTask 66 press the button:\t2");
